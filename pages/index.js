@@ -1,19 +1,26 @@
 import React from "react";
+import Head from "next/head";
 
 import { 
-  Box, 
-  Text, 
-  Container 
+  Center,
+  Text
 } from "@chakra-ui/react"
 
 function HomePage() {
   return (
     <>
-      <Container maxW="xl" centerContent>
-        <Box h="100%">
-          <Text  as="i" fontSize="179px" fontWeight="bold">FastMob</Text>
-        </Box >
-      </Container>
+      <Head>
+        <title> FastMoB :: Mobilidade por Rotas</title>
+      </Head>
+      <Center 
+        minH="100vh" 
+        mh="auto"
+        bgImage="url('/images/fastMobTracos.png')"
+        bgPosition="center"
+        bgRepeat="no-repeat"
+      >
+        <Text  as="i" fontSize="179px" fontWeight="bold">FastMob</Text>
+      </Center >
     </>
       
   )

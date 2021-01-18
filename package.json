@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@chakra-ui/image": "^1.0.4",
     "@chakra-ui/react": "^1.1.5",
     "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
