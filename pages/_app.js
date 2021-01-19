@@ -7,7 +7,7 @@ import theme from '../theme'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider theme={theme} colorModeManager>
       <Global styles={fonts} />
 			<Component {...pageProps}/>
     </ChakraProvider>
