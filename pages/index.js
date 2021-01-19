@@ -4,7 +4,7 @@ import Head from "next/head";
 import { 
   Center,
   Text
-} from "@chakra-ui/react"
+} from "@chakra-ui/react";
 
 function HomePage() {
   return (
@@ -16,10 +16,15 @@ function HomePage() {
         minH="100vh" 
         mh="auto"
         bgImage="url('/images/fastMobTracos.png')"
-        bgPosition="center"
         bgRepeat="no-repeat"
       >
-        <Text  as="i" fontSize="179px" fontWeight="bold">FastMob</Text>
+        <Text 
+          as="i" 
+          fontSize="179px" 
+          fontWeight="bold"
+        >
+          FastMob
+        </Text>
       </Center >
     </>
       
